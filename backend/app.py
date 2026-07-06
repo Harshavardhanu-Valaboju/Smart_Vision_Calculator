@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from ocr import extract_numbers
 import os
@@ -8,6 +8,10 @@ CORS(app)
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
 
 @app.route("/scan", methods=["POST"])
 def scan():
