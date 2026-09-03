@@ -1,6 +1,6 @@
 # 📷 Smart Vision Calculator
 
-A web-based AI-powered calculator that extracts numbers from images using Optical Character Recognition (OCR) and performs mathematical calculations without manual typing reduces  manual things.
+A web-based AI-powered calculator that extracts numbers from images using Optical Character Recognition (OCR) and performs mathematical calculations without manual typing .
 
 ## 🚀 Project Overview
 
